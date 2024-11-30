@@ -3,7 +3,8 @@ ORG 100H
 .data
 
 sum_prompt db ?
-arr2 dw 0035H, 3130H, 3135H, 3230H, '$'
+arr2 dw 0035H, 3130H, 3135H, 3230H, '$' ; 5, 10, 15, 20 in ascii
+
 ;housekeeping
 sum dw ?
 ;sum_prompt db "Result: $"
